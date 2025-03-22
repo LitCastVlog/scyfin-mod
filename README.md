@@ -15,26 +15,28 @@ Also avaliable as a [Userscript](https://userstyles.world/style/21514/scyfin-ole
 <img src="./images/login.png" alt="login" width="100%"/>
 
 ### Base Theme
-`@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/scyfin-theme.css');`
+`@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/scyfin-theme.css');`
+
+
 
 ### Scyfin-mod (Add this below the Options)
-`@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/scyfin-mod.css');`
+`@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/scyfin-mod.css');`
 
 ### Options (Add these below the base theme)
 - Disable static left drawer 
-    - `@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/disable-static-drawer.css');`
+    - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/disable-static-drawer.css');`
 - Themes:
     - Seafoam
-        - `@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/theme-seafoam.css');`
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-seafoam.css');`
         - <img src="./images/seafoam.png" alt="seafoam-theme" width="40%"/>
     - Coral
-        - `@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/theme-coral.css');`
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-coral.css');`
         - <img src="./images/coral.png" alt="coral-theme" width="40%"/>
     - Snow
-        - `@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/theme-snow.css');`
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-snow.css');`
         - <img src="./images/snow.png" alt="snow-theme" width="40%"/>
     - OLED
-        - `@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/theme-oled.css');`
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-oled.css');`
         - <img src="./images/homepage-oled.png" alt="homepage-oled" width="100%"/>
         - <img src="./images/Details.png" alt="details-oled" width="100%"/>
 
