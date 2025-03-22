@@ -2,7 +2,7 @@
 
 [Go to installation](#installation)
 
-Also valiable as a [Userscript](https://userstyles.world/style/21514/scyfin-oled-modified)
+Also avaliable as a [Userscript](https://userstyles.world/style/21514/scyfin-oled-modified)
 
 ---
 
