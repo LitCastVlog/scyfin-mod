@@ -2,7 +2,7 @@
 
 [Go to installation](#installation)
 
-Also avaliable as a [Userscript](https://userstyles.world/style/21514/scyfin-oled-modified)
+Also avaliable as a [Userstyle](https://userstyles.world/style/21514/scyfin-oled-modified)
 
 ---
 
@@ -45,6 +45,8 @@ Also avaliable as a [Userscript](https://userstyles.world/style/21514/scyfin-ole
 ### **Installation:**
 
 ---
+### Easy install (one liner) 
+`@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/scyfin-mod-oneliner.css');`
 
 **Server-wide install:**
 * Click the hamburger icon (Top left)
@@ -59,6 +61,7 @@ Also avaliable as a [Userscript](https://userstyles.world/style/21514/scyfin-ole
 * Click "Save"
 
 ---
+
 
 **Single client install:**
 * Click the hamburger icon (Top left)
