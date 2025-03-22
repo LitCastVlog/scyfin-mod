@@ -1,6 +1,4 @@
-<img src="./images/scyfin-full.png" alt="scyfin logo" width="200"/>
-
-### **Modern CSS theme for Jellyfin with support for backdrops and custom accent colors**
+### **Modified version of Scyfin for Jellyfin WebUI**
 
 [Go to installation](#installation)
 
