@@ -10,7 +10,7 @@
     --primary-background-transparent: rgba(35,35,35,0.5);
     --secondary-background-transparent: rgba(0,0,0,0.6);
     --rounded-cards: 15px;
-    --blur: 10px;
+    --blur: 5px;
 
     /* Alternate accents*/
     --primary-alt1: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 1);
@@ -154,27 +154,6 @@ progress::-webkit-progress-value {
 .layout-desktop #myPreferencesMenuPage .listItem:hover {
     transform: scale(1.015);
 }
-
-
-
-/* Rounded cards */
-.cardContent,
-.cardPadder,
-.cardOverlayContainer,
-.blurhash-canvas,
-.dialog,
-.itemSelectionPanel {
-    border-radius: var(--rounded-cards) !important;
-}
-/* Rounded selection menu */
-.itemSelectionPanel {
-    border: 2px solid var(--primary-accent-color) !important;
-}
-.itemSelectionPanel .checkboxOutline {
-    margin: 7px !important;
-}
-
-
 
 /* Floating progress bar */
 .innerCardFooter {
@@ -984,7 +963,7 @@ html,
     margin-right: -85px !important;
     padding-right: 20px !important;
     right: 110px !important;
-    background: var(--primary-accent-color) !important;
+    background:#fff9!important;
     border-radius: 100px !important;
     color: var(--secondary-background-color) !important;
 }
