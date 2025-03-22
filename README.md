@@ -17,6 +17,9 @@ Also valiable as a [Userscript](https://userstyles.world/style/21514/scyfin-oled
 ### Base Theme
 `@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/scyfin-theme.css');`
 
+### Scyfin-mod (Add this below the Options)
+`@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/scyfin-mod.css');`
+
 ### Options (Add these below the base theme)
 - Disable static left drawer 
     - `@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/disable-static-drawer.css');`
@@ -35,8 +38,6 @@ Also valiable as a [Userscript](https://userstyles.world/style/21514/scyfin-oled
         - <img src="./images/homepage-oled.png" alt="homepage-oled" width="100%"/>
         - <img src="./images/Details.png" alt="details-oled" width="100%"/>
 
-### Scyfin-mod (Add this below the Options)
-`@import url('https://github.com/LitCastVlog/scyfin-mod/tree/main/CSS/scyfin-mod.css');`
 ---
 
 ### **Installation:**
