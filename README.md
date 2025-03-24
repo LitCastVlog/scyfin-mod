@@ -48,10 +48,10 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21514/scyfin-oled
 ### Easy install (one liner) 
 `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/scyfin-mod-oneliner.css');`
 
-*if the logo is too big (iOS, Android), append this as well* 
+*if the logo is too big (iOS, Android), append this as well (per client)* 
 * `.pageTitleWithDefaultLogo {
     background-image: url("https://cdn2.steamgriddb.com/logo/3f44f3018ff71ff4a7d22a98f3babb55.png");
-    background-size: 50%; /* Adjusted to make it 10% smaller */ }` 
+    background-size: 50%; }` 
 
 **Server-wide install:**
 * Click the hamburger icon (Top left)
