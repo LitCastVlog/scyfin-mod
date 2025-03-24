@@ -22,6 +22,11 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21514/scyfin-oled
 ### Scyfin-mod (Add this below the Options)
 `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/scyfin-mod.css');`
 
+ - B/W Logo (credits: [RoyalxZealot](https://www.steamgriddb.com/logo/128502))
+ - Squared Dark/Transparent Indicators
+ - Smaller Cast/Crew section
+ - Hide "Upcoming on TV" and "Next Up" section in Season View
+
 ### Options (Add these below the base theme)
 - Disable static left drawer 
     - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/disable-static-drawer.css');`
@@ -48,10 +53,10 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21514/scyfin-oled
 ### Easy install (one liner) 
 `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/scyfin-mod-oneliner.css');`
 
-*if the logo is too big (iOS, Android), append this as well (per client)* 
+*if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
 * `.pageTitleWithDefaultLogo {
     background-image: url("https://cdn2.steamgriddb.com/logo/3f44f3018ff71ff4a7d22a98f3babb55.png");
-    background-size: 50%; }` 
+    background-size: 50%; }`
 
 **Server-wide install:**
 * Click the hamburger icon (Top left)
