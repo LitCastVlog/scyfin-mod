@@ -1,3 +1,4 @@
+/*Scyfin-theme main*/
 /* Variables */
 :root {
     --primary-r: 0;
@@ -154,73 +155,20 @@ progress::-webkit-progress-value {
 .layout-desktop #myPreferencesMenuPage .listItem:hover {
     transform: scale(1.015);
 }
-
-/* Floating progress bar */
-.innerCardFooter {
-    border-radius: var(--rounded-cards) !important;
-    margin-left: 5px !important;
-    margin-bottom: 5px !important;
-    padding: 5px 15px 5px 5px !important;
-    bottom: 0% !important;
-    background: rgba(0,0,0,0.5) !important;
-    backdrop-filter: blur(var(--blur)) !important;
-}
-.fullInnerCardFooter {
-    bottom: 5% !important;
-    width: 90% !important;
-    margin: auto !important;
-    border-radius: 100px !important;
-    padding: 0px !important;
-    backdrop-filter: none !important;
-}
-.itemProgressBar:not(.playbackProgress):not(.transcodingProgress):not(.backgroundProgress) {
-    height: 10px !important;
-    background: var(--primary-background-transparent) !important;
-    backdrop-filter: blur(2px) !important;
-    border-radius: 100px !important;
-}
-.innerCardFooterClear {
-    background-color: none !important;
-}
-.innerCardFooter .cardText {
-    padding: 0 0 0 10px !important
-}
-.itemProgressBarForeground:not(.playbackProgress .itemProgressBarForeground):not(.transcodingProgress .itemProgressBarForeground):not(.backgroundProgress .itemProgressBarForeground) {
+/*  watched indicator */
+.playedIndicator {
     background: var(--primary-accent-color) !important;
 }
+/* Update progress bar colors to use primary color */
 .itemProgressBarForeground {
-    border-radius: 100px !important;
-}
-.transcodingProgress > div {
-    background-color: hsla(0,0%,100%,.2) !important;
-}
-.activeSession .backgroundProgress,
-.activeSession .playbackProgress,
-.activeSession .transcodingProgress {
-    bottom: 10px !important;
-    border-radius: 100px !important;
-    width: 90% !important;
-    left: 5% !important;
-}
-.sessionNowPlayingInnerContent {
-    padding-bottom: 12px !important;
-    padding-inline: 17px !important;
-}
-.sessionAppInfo {
-    padding: .5em 0em !important;
-}
-.sessionNowPlayingInfo {
-    padding: .8em 0em !important;
+    background: var(--primary-accent-color) !important;
+    /* Use primary accent color */
 }
 
-
-
-/* Green watched indicator */
-.playedIndicator {
-    background: #409843 !important;
+.itemProgressBar {
+    background: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.2) !important;
+    /* Use primary color with transparency */
 }
-
-
 
 /* Rounded left drawer buttons */
 .navMenuOption,
@@ -957,6 +905,7 @@ html,
 /* Modify play button */
 .layout-desktop .mainDetailButtons .btnPlay::after {
     content: "Play" !important;
+    
 }
 .layout-desktop .mainDetailButtons .btnPlay {
     position: relative !important;
@@ -982,6 +931,10 @@ html,
 /* Live TV */
 /* Modified background color of active guide cells */
 .programCell-active {
+    background: var(--secondary-background-color) !important;
+}
+
+.channelsContainer {
     background: var(--secondary-background-color) !important;
 }
 /* Repositioned record button */
