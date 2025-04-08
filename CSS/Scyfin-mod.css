@@ -1,24 +1,47 @@
-/* Scyfin-mod Fork Extras*/
+/* Scyfin-mod Extras */
 
 /* BW Logo */
 .pageTitleWithDefaultLogo {
     background-image: url("https://cdn2.steamgriddb.com/logo/3f44f3018ff71ff4a7d22a98f3babb55.png");
 }
 
-/* Squared Dark/Transparent Episode indicators */
+/* Inactive Header text color */
+ .emby-button > .emby-button-foreground {
+     color: grey;
+     transition: color 0.2s ease
+ }
+ /* Active Header text color */
+ .emby-tab-button-active > .emby-button-foreground {
+     color: var(--primary-accent-color); 
+     transition: color 0.2s ease   
+ }
+ /* Hover effect for Header tabs */
+ .emby-button:hover > .emby-button-foreground {
+     color: var(--primary-alt6);
+     transition: color 0.2s ease
+ }
+ 
+/* Squared Dark/Transparent Episode, Version indicators */
 .playedIndicator {
     border-radius: 0 !important; /* Remove rounding */
     width: 40px; /* Adjust width as needed */
     height: 40px; /* Adjust height as needed */
     background: #00000085 !important;
 }
-
 .indicator {
     border-radius: 0 !important; /* Ensure any other indicators are also square */
     width: 40px; /* Adjust width as needed */
     height: 40px; /* Adjust height as needed */
     background: #00000085 !important;
 }
+.lazy-image-fadein-fast.non-blurhashable.lazy.itemAction.listItemImage-large.listItemImage > .mediaSourceIndicator {
+     border-radius: 0 !important;
+     background: #00000085 !important;
+ }
+ .mediaSourceIndicator {
+     border-radius: 0 !important;
+     background: #00000085 !important;
+ }
 
 /* Outline Cards on Hover */
 div.card-withuserdata.card-hoverable.card:hover > .cardBox-bottompadded.cardBox > .cardScalable,
