@@ -4,6 +4,8 @@
 
 Also avaliable as a [Userstyle](https://userstyles.world/style/21514/scyfin-oled-modified)
 
+(also see [Flow for Jellyfin](https://github.com/LitCastVlog/flow), my personal customized fork of Scyfin)
+
 ---
 
 ### **Scyfin Base Theme**
